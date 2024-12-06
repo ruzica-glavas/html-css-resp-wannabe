@@ -138,11 +138,15 @@ img {
         width: 480px;
         
     }
-}
+
+
     .row {
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+
 }
 
 /*Responsive Ipad*/
@@ -151,9 +155,38 @@ img {
     .container {
         width: 768px;
     }   
-}
+
     .row {
         display: flex;
         flex-direction: row;
         align-items: space-between;
+}
+
+
+}
+
+/*Responsive Desktop*/
+
+@media  screen and (min-width: 769px) {
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    .col {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+
+
 }
