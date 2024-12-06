@@ -127,3 +127,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/*Responsive Ipad*/
+
+@media  screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }   
+}
+
+/*Responsive mobile*/
+
