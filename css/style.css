@@ -129,13 +129,7 @@ img {
  ************************************************/
 
 
-/*Responsive Ipad*/
 
-@media  screen and (max-width: 768px) {
-    .container {
-        width: 768px;
-    }   
-}
 
 /*Responsive mobile*/
 
@@ -149,4 +143,17 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+/*Responsive Ipad*/
+
+@media  screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }   
+}
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: space-between;
 }
