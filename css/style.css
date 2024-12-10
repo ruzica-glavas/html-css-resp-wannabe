@@ -130,6 +130,24 @@ img {
 
 
 
+/*Responsive Ipad*/
+
+@media  screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }   
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: space-between;
+}
+
+.steps {
+    width:max-content
+}
+
+}
 
 /*Responsive mobile*/
 
@@ -144,25 +162,6 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-}
-
-.steps {
-    width:max-content
-}
-
-}
-
-/*Responsive Ipad*/
-
-@media  screen and (min-width: 480px) and (max-width: 768px) {
-    .container {
-        width: 768px;
-    }   
-
-    .row {
-        display: flex;
-        flex-direction: row;
-        align-items: space-between;
 }
 
 .steps {
